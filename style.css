@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+body{
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 1160px;
+    height: 600px;
+    display: grid;
+    grid-template-areas:
+    "purple purple grey smoke"
+    "white dark dark smoke";
+    gap: 2rem;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.headingImg{
+    display: flex;
+    gap: 10px;
+}
+
+.card{
+    padding: 30px 30px 30px 30px;
+    border-radius: 10px;
+}
+
+.card span{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card h2{
+    padding-top: 10px;
+    font-weight: 550;
+}
+
+.card p{
+    font-size: 15px;
+    color: hsl(0, 0%, 81%);
+    padding-top:13px;
+}
+
+.purple{
+    background-color:   hsl(263, 55%, 52%) ;
+    color: white;
+    width: 550px;
+    height: 290px;
+    grid-area: purple;
+}
+
+.grey{
+    width: 250px;
+    height: 285px;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    grid-area: grey;
+}
+
+.white{
+    width: 250px;
+    height: 280px;
+    background-color: hsl(0, 0%, 81%);
+    color: black;
+    grid-area: white;
+}
+
+.dark{
+    width: 535px;
+    height: 283px;
+    background-color: hsl(219, 29%, 14%);
+    color: whitesmoke;
+    grid-area: dark;
+}
+
+.smoke{
+    width: 263px;
+    height: 656px;
+    background-color: whitesmoke;
+    grid-area: smoke;
+}
+
+.smoke p{
+    color: hsl(224, 10%, 45%);
+}
+
+.white p{
+    color: hsl(224, 10%, 45%);
+}
+
